@@ -1,0 +1,120 @@
+*{
+    padding: 5px;
+}
+
+header{
+    background-color: rgb(163, 163, 162);
+    height: 700px;
+    border-radius: 5px;
+    padding-bottom: 90px;
+
+}
+#hero{
+    display: flex;
+}
+.entete{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(236, 234, 236);
+    padding: 40px;
+    margin-top: 15px;
+}
+span{
+    color: #11110f;
+    font-size: 80px;
+}
+#lien a{
+    text-decoration: none;
+    font-size: 40px;
+    margin: 5px;
+}
+#lampe{
+    align-items: center;
+    text-align: center;
+}
+#lampe h1{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 50px;
+}
+.image1{
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    right: 0;
+
+}
+#fonctionnalité{
+    background-color: #a1a1a1;
+    border-radius: 5px;
+}
+#solart{
+    background-color: #969393;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px;  
+}
+#solar h1{
+    color: aliceblue;
+    font-size: 50px;
+}
+#cord{
+    display: flex;
+}
+.PointClé{
+  background-color: #dbd9de; 
+  border-radius: 5px;
+  margin: 5px; 
+  
+}
+.form-container{
+    
+    background-color: rgb(134, 135, 135);
+    border-radius: 5px;
+    box-shadow: 5px  8px rgb(42, 41, 41);
+    width: 100%;
+    max-width: 400px;
+}
+.form-container h1{
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    font-size: 14px;
+    color: rgb(10, 10, 10);
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #11110f;
+    font-size: 10px;
+    color: rgb(15, 17, 17) ;
+}
+textarea{
+    resize: vertical;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(83, 154, 240);
+    color: bisque;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    cursor: 16px;
+    transition: backgroup-color 0.3s;
+}
+button :hover{
+    background-color: rgb(4, 4, 4);
+}
+footer{
+    background-color: rgb(210, 206, 214);
+    padding-top: 30px;
+}
+#copy{
+    text-align: center;
+}
